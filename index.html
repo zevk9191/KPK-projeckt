@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Список товарів</title>
+    <link rel="stylesheet" href="styles/style_basic.css">
+    <link rel="stylesheet" href="styles/style_class.css">
+    <link rel="stylesheet" href="styles/style_id.css">
+    <link rel="stylesheet" href="styles/style_pseudo.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header id="header"><h1>Список товарів</h1></header>
+<main id="container">
+    <form id="inputTask">
+        <!-- <input type="text" class="inputText"> -->
+        <button type="submit" class="btnSubmit">Добавити товар</button>
+    </form>
+    <ul id="taskList">
+    </ul>
+    <div id="secondaryButtons">
+        <button id="btnSortHigh" class="sortButtonEdit">Найдорожчий товар</button>
+        <button id="btnSortChip" class="sortButtonEdit">Найдешевший товар</button>
+        <button id="btnSortAction" class="sortButtonEdit">Акційний товар</button>
+        <button id="btnShowAll" class="sortButtonEdit">Показати всі товари</button>
+        <!-- <button id="btnClearCompleted">Clear Completed</button> -->
+    </div>
+    <button id="btnClearList">Очистити Список</button>
+    <br>
+    <p>У вас <span id="outNumberTasks">0</span> товар(ів)!</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    margin: 2%;
+    background: #f1f1f1;
+    font-size: 20px;
+    line-height: 22px;
+    color: #404040;
+    font-family: 'Lucida Grande', Verdana, sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    background: lightseagreen;
+    color: #fff;
+    padding: 4px 12px;
+    margin: 0 0 0 4px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 24px;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+
+p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+input[type="text"]:focus {
+    color: #000000;
+    border: 1px solid #000000
+}

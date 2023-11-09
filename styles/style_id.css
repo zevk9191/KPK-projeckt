@@ -1,0 +1,29 @@
+#taskList {
+    display: flex;
+    flex-flow: column nowrap;
+    visibility: hidden;
+    margin: 10px;
+}
+
+#container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#secondaryButtons {
+    max-width: 350px;
+    min-height: 120px;
+    display: flex;
+    /* flex-flow: wrap; */
+    align-items: center;
+    justify-content: center;
+}
+
+#inputTask {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}

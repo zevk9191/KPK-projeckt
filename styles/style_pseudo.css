@@ -1,0 +1,37 @@
+#btnClearCompleted:hover, .btnDelete:hover {
+    background: darkred;
+}
+
+#btnClearList:hover {
+    background: red;
+}
+
+.btnSubmit:hover {
+    background: #59a4d5;
+}
+
+.btnEdit:hover {
+    background: #081d9a;
+}
+
+.sortButtonEdit:hover {
+    background: rgba(162, 194, 64, 0.57);
+}
+
+.taskText.active {
+    background: rgba(63, 192, 46, 0.6);
+}
+
+#selectTypeTask::part(button) {
+    color: white;
+    background-color: #f00;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#selectTypeTask::part(listbox) {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}

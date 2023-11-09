@@ -1,0 +1,77 @@
+.task {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 5px;
+    min-height: 30px;
+    background: #f1f1f1;
+    font-size: 20px;
+    line-height: 22px;
+    color: #404040;
+    font-family: 'Lucida Grande', Verdana, sans-serif;
+    background: none;
+}
+
+.taskButton {
+    background: #7485ce;
+    color: #fff;
+    padding: 4px 10px;
+    margin: 0 0 0 4px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    vertical-align: bottom;
+    width: auto;
+    height: auto;
+}
+
+.btnDelete, .btnEdit {
+    margin: 5px;
+}
+
+.taskText {
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    background: rgba(211, 207, 95, 0.26);
+    outline: none;
+}
+
+.inputText {
+    border: 1px solid rgba(28, 22, 22, 0.54);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    outline: none;
+    height: 24px;
+    width: 200px;
+    background: rgb(241, 241, 241);
+    font-size: 20px;
+    line-height: 22px;
+    color: #404040;
+    font-family: 'Lucida Grande', Verdana, sans-serif;
+
+}
+.sortButtonEdit {
+    margin: 5px;
+    background: #dc8b39;
+    color: #fff;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    vertical-align: bottom;
+    min-width: 130px;
+    height: auto;
+}
